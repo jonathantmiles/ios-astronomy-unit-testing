@@ -15,7 +15,7 @@ class MarsRoverClient {
     }
     
     func fetchMarsRover(named name: String,
-                        using session: URLSession = URLSession.shared,
+                        // using session: URLSession = URLSession.shared,
                         completion: @escaping (MarsRover?, Error?) -> Void) {
         
         let url = self.url(forInfoForRover: name)
